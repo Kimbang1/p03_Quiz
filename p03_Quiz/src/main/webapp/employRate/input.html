@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>입력화면</title>
+<link rel="stylesheet" href="style/style.css?v">
+</head>
+<body>
+	<div id="wrap">
+		<form action="result.jsp">
+			<h1>Quiz.취업률을 구하시오.</h1>
+
+			<div id="box">
+				<div id="CongCount">
+					<span>1. 졸업자 수</span> <input class="inputs" name="CCount" type="text">
+				</div>
+				<div id="Employment">
+					<span>2. 취업자 수</span> <input class="inputs" name="EPY" type="text">
+				</div>
+				<div id="Btn">
+					<span>3.</span>
+					<button type="submit">취업률 계산</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<!-- div#wrap -->
+	<script src="/script/jquery-3.7.1.min.js"></script>
+	<script src="/script/script.js"></script>
+</body>
+</html>
